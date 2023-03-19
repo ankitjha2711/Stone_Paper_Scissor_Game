@@ -35,9 +35,9 @@ function add_ripple_effect_user_wins(){
   let ripple = document.createElement("div");
   ripple.classList.add("ripple-img");
   ripple.innerHTML = `
-  <img src="../pics/e3.png" alt="" class="i3">
-  <img src="../pics/e5.png" alt="" class="i1">
-  <img src="../pics/e4.png" alt="" class="i2">
+  <img src="/pics/e3.png" alt="" class="i3">
+  <img src="/pics/e5.png" alt="" class="i1">
+  <img src="/pics/e4.png" alt="" class="i2">
   `;
   document.getElementsByClassName("lower-half")[0].appendChild(ripple);
   document.getElementsByClassName("ripple-img")[0].style.cssText = `
@@ -69,9 +69,9 @@ function add_ripple_effect_cs_wins(){
   let ripple = document.createElement("div");
   ripple.classList.add("ripple-img");
   ripple.innerHTML = `
-  <img src="../pics/e3.png" alt="" class="i3">
-  <img src="../pics/e5.png" alt="" class="i1">
-  <img src="../pics/e4.png" alt="" class="i2">
+  <img src="/pics/e3.png" alt="" class="i3">
+  <img src="/pics/e5.png" alt="" class="i1">
+  <img src="/pics/e4.png" alt="" class="i2">
   `;
   document.getElementsByClassName("lower-half")[0].appendChild(ripple);
   document.getElementsByClassName("ripple-img")[0].style.cssText = `
@@ -146,7 +146,7 @@ function add_specs(wins){
     <h1 class="win-msg">YOU ${msg}</h1>
     <h2 class="against-pc">AGAINST PC</h2>
     <div class="btn">
-    <a href="../index.html" style="text-decoration: none; color: #6B6B6B;"><p class="btn-content">PLAY AGAIN</p></a>
+    <a href="/index.html" style="text-decoration: none; color: #6B6B6B;"><p class="btn-content">PLAY AGAIN</p></a>
     </div>
     `;
 
@@ -171,7 +171,7 @@ function add_specs(wins){
     let next_btn = document.createElement("div");
     next_btn.classList.add("next-btn");
     next_btn.innerHTML = `
-    <a href="../congratulations page/congratulation.html" style="text-decoration: none; color: white;">
+    <a href="/congratulations page/congratulation.html" style="text-decoration: none; color: white;">
     <h1 class="title-next">NEXT</h1>
     </a>
     `;
@@ -246,7 +246,7 @@ function add_specs(wins){
     status.innerHTML = `
     <h1 class="tie-msg">TIE UP</h1>
     <div class="btn">
-    <a href="../index.html" style="text-decoration: none; color: #6B6B6B;"><p class="btn-content">PLAY AGAIN</p></a>
+    <a href="/index.html" style="text-decoration: none; color: #6B6B6B;"><p class="btn-content">PLAY AGAIN</p></a>
     </div>
     `;
     document.getElementsByClassName("lower-half")[0].appendChild(status);
@@ -391,7 +391,7 @@ stone.addEventListener("click",()=>{
 
   let computer_answer = document.createElement("div");
   computer_answer.classList.add("computer-answer");
-  computer_answer.innerHTML = `<img src="../pics/${image}.png" alt="" class="cs-scissor-icon">`;
+  computer_answer.innerHTML = `<img src="/pics/${image}.png" alt="" class="cs-scissor-icon">`;
   computer_answer.style.cssText = `
     cursor: pointer;
     width: 110px;
@@ -476,7 +476,7 @@ scissor.addEventListener("click",()=>{
 
   var computer_answer = document.createElement("div");
   computer_answer.classList.add("computer-answer");
-  computer_answer.innerHTML = `<img src="../pics/${image}.png" alt="" class="cs-scissor-icon">`;
+  computer_answer.innerHTML = `<img src="/pics/${image}.png" alt="" class="cs-scissor-icon">`;
   computer_answer.style.cssText = `
     cursor: pointer;
     width: 110px;
@@ -564,7 +564,7 @@ paper.addEventListener("click",()=>{
 
   var computer_answer = document.createElement("div");
   computer_answer.classList.add("computer-answer");
-  computer_answer.innerHTML = `<img src="../pics/${image}.png" alt="" class="cs-scissor-icon">`;
+  computer_answer.innerHTML = `<img src="/pics/${image}.png" alt="" class="cs-scissor-icon">`;
   computer_answer.style.cssText = `
     cursor: pointer;
     width: 110px;
